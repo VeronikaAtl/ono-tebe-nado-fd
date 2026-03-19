@@ -203,28 +203,22 @@
 } /*карточка;*/
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-}
-.card_film_flex {
   display: flex;
   row-gap: 274px;
   flex-direction: column;
 }
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-}
-.card_book_flex {
   display: flex;
   row-gap: 32px;
   flex-direction: column;
 }
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-} /*классы для фона каждой из карточек;*/
-.card_picture_flex {
   display: flex;
   row-gap: 130px;
   flex-direction: column;
-}
+} /*классы для фона каждой из карточек;*/
 .card__title {
   position: relative;
   font-style: normal;
