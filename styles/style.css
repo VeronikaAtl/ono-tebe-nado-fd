@@ -98,7 +98,6 @@
 } /*полупрозрачный блок поверх секции;*/
 .cover__title {
   width: 1000px;
-  height: 385px;
   margin-bottom: 106px;
   font-weight: 700;
   font-style: normal;
@@ -163,7 +162,6 @@
 .lots {
   margin: 180px 24px 120px 24px;
   width: 1052px;
-  height: 723px;
   opacity: 1;
 } /*вся секция;*/
 .lots__heading {
@@ -200,24 +198,18 @@
   position: relative;
   z-index: -1;
   padding: 48px 40px 48px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 } /*карточка;*/
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  display: flex;
-  row-gap: 274px;
-  flex-direction: column;
 }
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  display: flex;
-  row-gap: 32px;
-  flex-direction: column;
 }
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  display: flex;
-  row-gap: 130px;
-  flex-direction: column;
 } /*классы для фона каждой из карточек;*/
 .card__title {
   position: relative;
@@ -292,7 +284,6 @@
 }
 .about__text {
   width: 693px;
-  height: 312px;
   display: grid;
   row-gap: 24px;
   margin-left: 25px;
@@ -301,6 +292,12 @@
   font-size: 20px;
   line-height: 24px;
   color: #000000;
+}
+.text_start {
+  width: 688px;
+}
+.text_end {
+  width: 680px;
 }
 .footer {
   width: 1100px;
@@ -340,7 +337,7 @@
 .footer__menu-link {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.15;
   text-align: center;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -358,7 +355,6 @@
   margin-bottom: 131px;
   gap: 48px;
   width: 240px;
-  height: 48px;
   right: 50px;
   top: 1px;
   list-style: none;
